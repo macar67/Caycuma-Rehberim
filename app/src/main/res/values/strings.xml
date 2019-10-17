@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Çaycuma-Rehberim</string>
+    <string name="title_activity_cafeharita">Map</string>
+    <string name="title_activity_kozde">Map</string>
+    <string name="title_activity_vitamin">Map</string>
+    <string name="title_activity_ocakbasi">Map</string>
+    <string name="title_activity_sepetcioglu">Map</string>
+    <string name="title_activity_cami_seka">Map</string>
+    <string name="title_activity_cami_beyler">Map</string>
+    <string name="title_activity_cami_siteler">Map</string>
+    <string name="title_activity_cami_ulu">Map</string>
+    <string name="title_activity_cami_merkez">Map</string>
+    <string name="title_activity_cami_ihsandogan">Map</string>
+    <string name="title_activity_cami_gocmenler">Map</string>
+    <string name="title_activity_tumcamiler">Map</string>
+    <string name="title_activity_yemek_yerleri">Map</string>
+    <string name="title_activity_cafeler">Map</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:orientation="horizontal"
+    android:layout_weight="2"
+    >
+
+    <LinearLayout
+
+        android:id="@+id/resimTaksi"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/taksiicon"
+            android:id="@+id/taksi"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/AciklamaTaksi"
+        android:layout_weight="1"
+        android:paddingLeft="20dp"
+        android:background="#ccae62"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/taksiismi"
+            android:layout_marginTop="7dp"
+            android:textColor="#f50348"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/taksiadress"
+            android:layout_marginTop="10dp"
+            android:textColor="#f50348"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/taksiTel"
+            android:layout_marginTop="7dp"
+            android:textColor="#f50348"/>
+
+        <Button
+            android:id="@+id/btnArama"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="10dp"
+            android:text="ARA"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</LinearLayout>

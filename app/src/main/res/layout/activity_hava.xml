@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#706fd3"
+
+   >
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="BUGÜN ÇAYCUMA "
+        android:textSize="30dp"
+        android:background="#f7f1e3"
+        android:textStyle="bold|italic" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:id="@+id/deneme">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginLeft="20dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SICAKLIK :"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/aciklama"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+
+            />
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:text="HİSSEDİLEN  :"
+                android:textStyle="bold"
+                android:textSize="20dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+
+                />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/derece"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ORTALAMA : "
+                android:textStyle="bold"
+                android:textSize="20dp"
+
+
+                android:layout_gravity="center_horizontal"
+
+                />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hissedilen"
+            android:textStyle="bold"
+
+            android:textSize="20dp"
+            android:layout_marginLeft="30dp"
+
+            android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+        <WebView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/webview"></WebView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

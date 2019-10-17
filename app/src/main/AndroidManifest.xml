@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.muhammetacar.benimcaycumam">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+   "
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SeceneklerActivity" />
+        <activity android:name=".Camiler" />
+        <activity android:name=".manzaralar" />
+        <activity android:name=".mailGonder" />
+        <activity android:name=".combus" />
+        <activity android:name=".tren" />
+        <activity android:name=".taksi" />
+        <activity android:name=".cafe" />
+        <activity android:name=".hava" />
+        <activity android:name=".yemek" />
+        <activity android:name=".eczane" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Cafeharita"
+            android:label="@string/title_activity_cafeharita" />
+        <activity
+            android:name=".kozde"
+            android:label="@string/title_activity_kozde" />
+        <activity
+            android:name=".vitamin"
+            android:label="@string/title_activity_vitamin" />
+        <activity
+            android:name=".CamiSeka"
+            android:label="@string/title_activity_cami_seka" />
+        <activity
+            android:name=".CamiBeyler"
+            android:label="@string/title_activity_cami_beyler" />
+        <activity
+            android:name=".CamiSiteler"
+            android:label="@string/title_activity_cami_siteler" />
+        <activity
+            android:name=".CamiUlu"
+            android:label="@string/title_activity_cami_ulu" />
+        <activity
+            android:name=".CamiMerkez"
+            android:label="@string/title_activity_cami_merkez" />
+        <activity
+            android:name=".Camiİhsandogan"
+            android:label="@string/title_activity_cami_ihsandogan" />
+        <activity
+            android:name=".CamiGocmenler"
+            android:label="@string/title_activity_cami_gocmenler" />
+        <activity
+            android:name=".Tumcamiler"
+            android:label="@string/title_activity_tumcamiler" />
+        <activity
+            android:name=".yemekYerleri"
+            android:label="@string/title_activity_yemek_yerleri" />
+        <activity
+            android:name=".cafeler"
+            android:label="@string/title_activity_cafeler"></activity>
+    </application>
+
+</manifest>

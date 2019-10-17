@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".cafe">
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:id="@+id/listViewCafe"></ListView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#e74c3c"
+        android:id="@+id/Harita"
+        android:layout_marginTop="1dp"
+        android:text="TÜM CAFELERİ HARİTADA GÖSTER!... "/>
+
+</LinearLayout>
+</ScrollView>
